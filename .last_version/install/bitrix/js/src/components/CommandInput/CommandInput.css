@@ -1,0 +1,31 @@
+.vsg-input {
+    position: relative;
+    height: 32px;
+}
+
+.vsg-input input.vsg-input__input[type=text], .vsg-input__echo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    margin: 0;
+    font: var(--vsg-font-size-command) Arial, sans-serif;
+    border: none;
+}
+
+.vsg-input input.vsg-input__input[type=text] {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    color: var(--vsg-font-color-primary);
+    z-index: 2;
+}
+
+.vsg-input__echo {
+    color: var(--vsg-font-color-shadow);
+    z-index: 1;
+}

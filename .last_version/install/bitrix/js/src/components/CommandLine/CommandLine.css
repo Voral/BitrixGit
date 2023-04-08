@@ -1,0 +1,16 @@
+.vsg-cmd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 5px;
+}
+
+.vsg-cmd__input {
+    flex: 1;
+    background:var(--vsg-bg-command);
+}
+
+.vsg-cmd__info {
+    font: var(--vsg-font-size-info) Arial, sans-serif;
+    color: var(--vsg-font-color-primary);
+}

@@ -1,0 +1,34 @@
+.adm-submenu-item-link-icon.vasoft-git{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEXwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDNcxhweAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhAhUMEBK8qgw3AAAAS0lEQVQY052PsQ0AIQwDs4FH+/23oKC/D0IBC1GRys5FlhPxOmpmwAkbYSj3G5GqkEhVKDUqNM3HOhOVwEjjFh10YW2szlG0PX//A4yeOUizYnq4AAAAAElFTkSuQmCC);
+    background-position: 0 0;
+}
+.vsg-console {
+    --vsg-color-border: #cecece;
+    --vsg-font-size-command: 15px/32px;
+    --vsg-font-size-terminal: 15px/18px;
+    --vsg-font-size-info: 12px;
+    --vsg-font-color-primary: #333;
+    --vsg-font-color-shadow: #777;
+    --vsg-font-color-error: #e33;
+    --vsg-bg-command: #fff;
+
+    border: 1px solid var(--vsg-color-border);
+}
+
+.vsg-terminal {
+    border-bottom: 1px solid var(--vsg-color-border);
+    padding: 5px;
+    margin: 0;
+    max-height: 50vh;
+    overflow: auto;
+    font: var(--vsg-font-size-terminal) Arial, sans-serif;
+    color: var(--vsg-font-color-primary);
+}.vsg-error {
+    border-bottom: 1px solid var(--vsg-color-border);
+    padding: 5px;
+    margin: 0;
+    max-height: 30vh;
+    overflow: auto;
+    font: var(--vsg-font-size-terminal) Arial, sans-serif;
+    color: var(--vsg-font-color-error);
+}

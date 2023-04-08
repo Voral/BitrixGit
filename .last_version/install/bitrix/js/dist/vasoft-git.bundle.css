@@ -1,0 +1,88 @@
+.adm-submenu-item-link-icon.vasoft-git{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEXwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDPwUDNcxhweAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhAhUMEBK8qgw3AAAAS0lEQVQY052PsQ0AIQwDs4FH+/23oKC/D0IBC1GRys5FlhPxOmpmwAkbYSj3G5GqkEhVKDUqNM3HOhOVwEjjFh10YW2szlG0PX//A4yeOUizYnq4AAAAAElFTkSuQmCC);
+    background-position: 0 0;
+}
+.vsg-console {
+    --vsg-color-border: #cecece;
+    --vsg-font-size-command: 15px/32px;
+    --vsg-font-size-terminal: 15px/18px;
+    --vsg-font-size-info: 12px;
+    --vsg-font-color-primary: #333;
+    --vsg-font-color-shadow: #777;
+    --vsg-font-color-error: #e33;
+    --vsg-bg-command: #fff;
+
+    border: 1px solid var(--vsg-color-border);
+}
+
+.vsg-terminal {
+    border-bottom: 1px solid var(--vsg-color-border);
+    padding: 5px;
+    margin: 0;
+    max-height: 50vh;
+    overflow: auto;
+    font: var(--vsg-font-size-terminal) Arial, sans-serif;
+    color: var(--vsg-font-color-primary);
+}.vsg-error {
+    border-bottom: 1px solid var(--vsg-color-border);
+    padding: 5px;
+    margin: 0;
+    max-height: 30vh;
+    overflow: auto;
+    font: var(--vsg-font-size-terminal) Arial, sans-serif;
+    color: var(--vsg-font-color-error);
+}
+.vsg-cmd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    padding: 0 0 0 5px;
+}
+
+.vsg-cmd__input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background:var(--vsg-bg-command);
+}
+
+.vsg-cmd__info {
+    font: var(--vsg-font-size-info) Arial, sans-serif;
+    color: var(--vsg-font-color-primary);
+}
+.vsg-input {
+    position: relative;
+    height: 32px;
+}
+
+.vsg-input input.vsg-input__input[type=text], .vsg-input__echo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    margin: 0;
+    font: var(--vsg-font-size-command) Arial, sans-serif;
+    border: none;
+}
+
+.vsg-input input.vsg-input__input[type=text] {
+    border: none;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: var(--vsg-font-color-primary);
+    z-index: 2;
+}
+
+.vsg-input__echo {
+    color: var(--vsg-font-color-shadow);
+    z-index: 1;
+}
