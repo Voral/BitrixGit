@@ -1,4 +1,4 @@
 <?php
-$MESS["VS_GIT_TAB_OPTIONS"] = "Íàñòðîéêè";
-$MESS["VS_GIT_TAB_OPTIONS_TITLE"] = "Íàñòðîéêè ìîäóëÿ";
-$MESS["VS_GIT_HOME"] = "Çíà÷åíèå ïåðåìåííîé îêðóæåíèÿ HOME";
+$MESS["VS_GIT_TAB_OPTIONS"] = "ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸";
+$MESS["VS_GIT_TAB_OPTIONS_TITLE"] = "ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð¼Ð¾Ð´ÑƒÐ»Ñ";
+$MESS["VS_GIT_HOME"] = "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹ Ð¾ÐºÑ€ÑƒÐ¶ÐµÐ½Ð¸Ñ HOME";

@@ -1,4 +1,4 @@
 <?php
-$MESS['VS_GIT_ERROR_INVALID_COMMAND'] = 'Ââåäåíà íåäîïóñòèìàÿ êîìàíäà';
-$MESS['VS_GIT_ERROR_INACCESSIBLE_PATH'] = 'Íåò äîñòóïà ê óêàçàííîìó êàòàëîãó';
-$MESS['VS_GIT_ERROR_SERVICE_NOT_INITIALIZED'] = 'Ñåðâèñ %s íå èíèöèàëèçèðîâàí';
+$MESS['VS_GIT_ERROR_INVALID_COMMAND'] = 'Ð’Ð²ÐµÐ´ÐµÐ½Ð° Ð½ÐµÐ´Ð¾Ð¿ÑƒÑÑ‚Ð¸Ð¼Ð°Ñ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð°';
+$MESS['VS_GIT_ERROR_INACCESSIBLE_PATH'] = 'ÐÐµÑ‚ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð° Ðº ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ð¾Ð¼Ñƒ ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³Ñƒ';
+$MESS['VS_GIT_ERROR_SERVICE_NOT_INITIALIZED'] = 'Ð¡ÐµÑ€Ð²Ð¸Ñ %s Ð½Ðµ Ð¸Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½';

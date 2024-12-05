@@ -1,2 +1,2 @@
 <?php
-$MESS['VASOFT_GIT_TAB_OPTIONS'] = 'Îáùèå íàñòðîéêè';
+$MESS['VASOFT_GIT_TAB_OPTIONS'] = 'ÐžÐ±Ñ‰Ð¸Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸';

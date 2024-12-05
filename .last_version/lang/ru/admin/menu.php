@@ -1,2 +1,2 @@
 <?php
-$MESS['VASOFT_GIT_MENU'] = 'Консоль Git';
+$MESS['VASOFT_GIT_MENU'] = 'РљРѕРЅСЃРѕР»СЊ Git';

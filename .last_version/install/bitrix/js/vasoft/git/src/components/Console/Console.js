@@ -20,7 +20,12 @@ export const Console = {
     methods: {
         scroll() {
         },
+        execTagLog(){
+            console.log('execTagLog');
+            this.exec('git log --no-walk --tags --pretty="%h %d %s%n%b" --decorate=short');
+        },
         exec(command) {
+            console.log('exec', command);
             client.execute(command).then(this.onData).catch(this.onError);
         },
         onError(response) {
@@ -67,6 +72,9 @@ export const Console = {
     // language=Vue
     template: `
       <div class="vsg-console">
+      <div class="vsg-console__buttons">
+        <button @click="execTagLog">Tag log</button>
+      </div>
       <pre id="vsg-terminal" class="vsg-terminal" v-show="output.length>0">{{output}}</pre>
       <pre class="vsg-error" v-show="error.length>0">{{error}}</pre>
       <CommandLine :user="user" :path="path" :autocomplete="autocomplete" @execute="exec"/>
